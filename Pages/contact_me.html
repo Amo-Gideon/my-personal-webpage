@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body>
+    <div>
+        <h1>My Contact Details</h1>
+        <p>My Fictional Address</p>
+        <p>0904554635732</p>
+        <p>gideonamoappau@gmail.com</p>
+    </div>
+    <hr>
+    <form action="mailto:gideonamoappau@gmail.com" method="post" enctype="text/plain">
+        <di>
+            <label>Name:</label>
+            <input type="text">
+        </di>
+        <div>
+            <label>Email:</label>
+            <input type="email">
+        </div>
+        <div>
+            <label>Phone Number:</label>
+            <input type="number">
+        </div>
+        <div>
+            <label>Gender:</label>
+           <div>
+                <div>
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">Male</label>
+                </div>
+                <div>
+                    <input type="radio" name="gender" itemref="female">
+                    <label for="female">Female</label>
+                </div>
+                <div>
+                    <input type="radio" name="gender" id="notsaying">
+                    <label for="notsaying">Not Saying</label>
+                </div>
+           </div>
+        </div>
+        <div>
+            <label>Do you want to sign up for the email list?</label>
+            <br>
+            <input type="checkbox" id="yes" name="yes">
+            <label for="yes">Yes</label>
+
+        </div>
+        <div>
+            <label>Favorite Car:</label>
+            <br>
+            <select>
+                <option>Volvo</option>
+                <option>Audi</option>
+            </select>
+        </div>
+        <textarea cols="20" rows="20" >Please, Leave a message</textarea>
+        <button type="submit">Submit</button>
+    </form>
+    
+    <a href="../index.html">Go back home</a>
+</body>
+</html>
